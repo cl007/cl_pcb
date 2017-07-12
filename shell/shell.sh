@@ -54,5 +54,9 @@ ls -i
 #通过i结点删除一个文件
 find . -inum 2313  -exec rm {} \;
 
-
-  
+#查看是否存在一个用户名
+egrep "^oracle.oinstall" /etc/passwd >& /dev/null
+if [ $? ne 0 ] 
+then
+	useradd  oracle.oinstall
+fi 

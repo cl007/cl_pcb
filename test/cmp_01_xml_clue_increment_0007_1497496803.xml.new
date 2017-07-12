@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MESSAGE>                             
+	<DATASET name="WA_COMMON_010020">
+	<ITEM key="I010029" val="01" />
+	<ITEM key="H010005" val="00007" />
+	<ITEM key="I010013" val="152091" />
+	<ITEM key="TJ90000" val="03" eng="alert_type" />
+	<ITEM key="TJ90002" val="01" eng="control_area_type" />
+	<ITEM key="J010016" val="" eng="commit_server" />
+	<CONDITION rel="AND">
+		<ITEM key="I010056" val="1020001" />
+		<ITEM key="I010043" val="userzhouwei" match_mode="01" />
+		<CONDITION rel="OR">
+			<ITEM key="B050016" val="111" />
+			<ITEM key="B050016" val="120" />
+			<ITEM key="B050016" val="123" />
+			<ITEM key="B050016" val="124" />
+			<ITEM key="B050016" val="144" />
+			<ITEM key="B050016" val="145" />
+			<ITEM key="B050016" val="146" />
+		</CONDITION>
+	</CONDITION>
+</DATASET>
+</MESSAGE>
+<!-- 线索解释 完全匹配 用户姓名 -->
